@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+ <html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Page of Jegor Pronkin</title>
+<!--Ссылки на дополнительные ресурсы-->
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style  -->
+	<link rel="stylesheet" href="css/style.css">
+	</head> 
+
+
+	<body style="background-image: url(images/bg_img.jpg);">
+	
+	<div id="fh5co-main">
+		<div class="fh5co-tab-wrap">
+			<ul class="fh5co-tab-menu">
+				<li class="active"><a href="#" data-tab="1"><span class="icon icon-user"></span><span class="menu-text">Обо мне</span></a></li>
+				<li><a href="#" data-tab="2"><span class="icon icon-graduation-cap"></span><span class="menu-text">Оброзование</span></a></li>
+				<li><a href="#" data-tab="3"><span class="icon icon-black-tie"></span><span class="menu-text">Опыт работы</span></a></li>
+				<li><a href="#" data-tab="4" data-pie="yes"><span class="icon icon-fighter-jet"></span><span class="menu-text">Навыки</span></a></li>
+			</ul>
+			<!--Обо мне-->
+			<div class="fh5co-tab-content active" data-content="1">
+				<div class="fh5co-content-inner text-center">
+					<div class="row row-bottom-padded-sm">
+						<div class="col-md-12">
+							<figure>
+								<img src="images/profile_img.png">
+							</figure>
+							<h1 class="jegproname">ЕГОР ПРОНЬКИН</h1>
+							<p>Родился в <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BB%D0%BB%D0%B8%D0%BD">Таллинне</a>. Таллинн является столицей Эстонской Республики и находится по соседству с Финляндией, Швецией, Россией и Латвией. Мне 24 года и на данный момент работаю в технической поддержке и учусь в университет Майнор в Таллинне. Сам по себе целеустремленный, активный, любознательный и обладаю навыком быстрого обучения.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 fh5co-counter">
+							<div class="fh5co-number fh5co-left">6</div>
+							<div class="fh5co-text">
+								<h3 class="border-bottom">Месяцев опыта.</h3>
+								<p>Работы на данный момент на позиции IT Support Engineer.</p>
+							</div>
+						</div>
+					</div>
+					<ul class="fh5co-social">
+						<li><a href="https://www.facebook.com/jegorpronkin/"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/k1x1kz/"><i class="icon-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/jegorpronkin/"><i class="icon-linkedin"></i></a></li>
+					</ul>
+					<text style="color: rgb(148, 148, 148);">----------------------------------------------------------------------------</text>
+					<br><br>
+					<h1 style="color: rgb(0, 255, 191); text-shadow: 2px 2px rgb(61, 61, 61); border: rgba(255, 255, 255, 0.123); border-style: ridge; ">Связаться со мной:</h1>
+					<div class="myForm111">
+
+					<form name="myForm" action="msg.html">
+						Имя, Фамилия:<br>
+						<input type="text" name="fname" placeholder="Введите Имя, Фамилию..."  required><br>
+						<div class="email">
+						E-mail:<br>
+						<input type="text" name="email" placeholder="Введите E-mail..." required><br>
+						</div>
+						Комментарий:<br>
+						<textarea type="text" name="msg" placeholder="Введите текст..." maxlength="352" required></textarea><br>
+						<input type="submit" value="Отправить" onclick="validateForm()">
+					  </form>
+
+					<!--Скрипт проверки на ввод данных-->
+					  <script>
+					function validateForm() {
+  						let x = document.forms["myForm"]["fname"].value;
+						  let a = document.forms["myForm"]["email"].value;
+						  let b = document.forms["myForm"]["msg"].value;
+  						if (x == "" || a == "" || b == "") {
+   						alert("Пустые поля должны быть заполнены!");
+  						}
+						else {
+						alert("Сообщение было отправлено!");
+						}
+						return false;
+						}
+						</script>
+					  <!--------------------------------->
+
+					</div>
+				</div>
+			</div>
+			<!--Образование-->
+			<div class="fh5co-tab-content" data-content="2">
+				<div class="fh5co-content-inner">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Образование :</h1>
+
+							<div class="fh5co-feature">
+								<div class="fh5co-icon">
+									<i class="icon-graduation-cap"></i>
+								</div>
+								<div class="fh5co-text">
+									<h2>2020-2023</h2>
+									<p><a href='https://www.euas.eu/'>Estonian Entrepreneurship University of Applied Science (Bachelor's degree)</a></p>
+								</div>
+							</div>
+
+							<div class="fh5co-feature">
+								<div class="fh5co-icon">
+									<i class="icon-graduation-cap"></i>
+								</div>
+								<div class="fh5co-text">
+									<h2>2017-2020</h2>
+									<p><a href='https://taltech.ee/'>TalTech - Estonian Maritime Academy (Bachelor's degree)</a></p>
+								</div>
+							</div>
+
+							<div class="fh5co-feature">
+								<div class="fh5co-icon">
+									<i class="icon-graduation-cap"></i>
+								</div>
+								<div class="fh5co-text">
+									<h2>2013-2016</h2>
+									<p><a href='https://www.lasgy.tln.edu.ee/'>Lasnamae Gumnaasium (Hight School degree)</a></p>
+								</div>
+							</div>
+
+						</div>
+		
+					</div>
+				</div>
+			</div>
+			<!--Опыт работы-->
+			<div class="fh5co-tab-content" data-content="3">
+				<div class="fh5co-content-inner">
+					<div class="row">
+						<div class="col-md-12">
+
+							<h1>Опыт работы :</h1>
+
+							<div class="fh5co-feature">
+								<div class="fh5co-icon">
+									<i class="icon-users"></i>
+								</div>
+								<div class="fh5co-text">
+									<h2>May 2021 - Present</h2>
+									<h3><a href="https://home.kuehne-nagel.com/">Kuehne+Nagel IT Service Centre AS</a></h3>
+									<p>IT Support Engineer</p>
+								</div>
+							</div>
+
+							<div class="fh5co-feature">
+								<div class="fh5co-icon">
+									<i class="icon-users"></i>
+								</div>
+								<div class="fh5co-text">
+									<h2>Apr 2019 - May 2021</h2>
+									<h3><a href="https://hhla-tk.ee/en/">HHLA TK Estonia AS</a></h3>
+									<p>Process Engineer</p>
+								</div>
+							</div>
+
+							<div class="fh5co-feature">
+								<div class="fh5co-icon">
+									<i class="icon-truck"></i>
+								</div>
+								<div class="fh5co-text">
+									<h2>Mar 2018 - Apr 2019</h2>
+									<h3><a href="https://barbora.ee/">Barbora Eesti AS</a></h3>
+									<p>Food Courier</p>
+								</div>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!--Навыки-->
+			<div class="fh5co-tab-content" data-content="4">
+				<div class="fh5co-content-inner">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Навыки :</h1>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+							<div class="chart" data-percent="75"><span><strong>HTML5</strong>75%</span></div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+							<div class="chart" data-percent="60"><span><strong>CSS3</strong>60%</span></div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+							<div class="chart" data-percent="50"><span><strong>jQuery</strong>50%</span></div>
+						</div>
+
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+							<div class="chart" data-percent="95"><span><strong>C# Basics</strong>95%</span></div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+							<div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
+							<div class="chart" data-percent="90"><span><strong>ELK Stack</strong>90%</span></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="fh5co-footer">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<small>
+						Page created with help <a href="https://www.w3schools.com/">W3School</a>, <a href="https://www.youtube.com/results?search_query=%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%B0%D0%B5%D0%BC+%D1%81%D0%B0%D0%B9%D1%82+html+css+js">YouTube</a>, <a href="https://github.com/">GitHub</a> and <a href="https://stackoverflow.com/">StackOverflow</a>.
+					</small>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
